@@ -6,9 +6,9 @@ def ftoc(temperf):
 	return temperc
 value = input("qual a temperatura?")
 tipo = raw_input ("qual a escala?")
-if tipo == 'f':
+if tipo == 'f'| tipo == 'F':
 	print ftoc(value)
-elif tipo == 'c':
+elif tipo == 'c'| tipo == 'C':
 	print ctof(value)
 else:
 	print 'tipo invalido'
